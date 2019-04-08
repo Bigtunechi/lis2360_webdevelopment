@@ -1,0 +1,42 @@
+body {
+  background-color: #CC796C;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5em;
+  
+}
+h1 {
+  color: #FFD9D3;
+  margin-left: 20px;
+  font-size:58px;
+  text-align:center;
+}
+h2 {
+    color: #7F4C43;
+    text-align:center;
+    font-size: 38px;
+    text-decoration: underline;
+}
+p {
+  margin: 25px 50px 75px 100px;
+}
+a:link{
+    text-align: center;
+    color: white;
+}
+a:visited{
+    text-align: center;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+ul{
+    border-style: dotted;
+}
+table{
+    border-style: solid;
+    border-color: white;
+    
+}
