@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Mod Design</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section id="splash">
+        <!--Navigation Bar holds Navigation Buttons -->
+    <div id="navbar">
+	    <div class="container">  <!-- container keeps everything aligned and centered no matter what the window size -->
+		<ul  id="menu">
+			<!-- button class provides button-like appearance and scrolling javascript (see bottom of html code) -->
+			<li><a href="#overview" class="button">Overview</a></li>
+			<li><a href="#video" class="button">Video</a></li>
+   			<li><a href="#discography" class="button">Discography & References</a></li>
+   			<li><a href="#footer" class="button">Footer</a></li>
+   			
+		</ul>
+	    </div> <!-- end container -->
+    </div> <!-- end navbar -->
+    </section>
+    
+    <section id="overview">
+        
+    </section>
+    
+    <section id="video">
+        
+    </section>
+    
+    <section id="discography">
+        
+    </section>
+    
+    <section id="footer">
+        
+    </section>
+<!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+</script>
+</body>
+
+</html>
